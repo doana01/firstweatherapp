@@ -1,4 +1,65 @@
+body {
+  background: url(rainynight.jpg);
+  background-size: 220%;
+  font-family: arial, sans-serif;
+  padding-top: 90px;
+}
 h1 {
+  color: rgb(205, 212, 214);
+  font-size: 35px;
+  font-family: Candara;
+  font-weight: 100px;
+  line-height: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul {
+  margin: 0 10px;
+  padding: 0;
+}
+li {
+  color: rgb(194, 218, 245);
+  font-size: 14px;
+  font-weight: 100px;
+  height: 19px;
+  line-height: 1px;
+  list-style: none;
+}
+.weather-app {
+  background: url(rainynight.jpg);
+  background-size: 120%;
+  border: -15px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  padding-top: 20px;
+}
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+.temperature {
+  color: rgb(205, 212, 214);
+  font-size: 64px;
+  font-weight: 400px;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -34px;
+  color: rgb(194, 218, 245);
+}
+.search-form {
+  margin-bottom: 20px;
+}
+.rain {
+  margin-left: 260px;
+}
+footer {
+  color: rgb(176, 181, 185);
+  font-family: Candara;
+  font-size: 12px;
   text-align: center;
-  color: rgb(70, 131, 211);
 }
